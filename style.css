@@ -129,7 +129,7 @@ footer{
 	padding-bottom: 0.5vw;
 }
 .nonscroll{
-	height: 100vh;
+	height: 70vh;
 	overflow-y: auto;
   	-ms-overflow-style: none;  /* Hide scrollbar IE Edge*/
   	scrollbar-width: none;  /* Hide scrollbar Firefox */
