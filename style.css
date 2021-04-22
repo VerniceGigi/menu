@@ -62,6 +62,7 @@ li{
 	background-image: url(pics/arrow.png);
 	background-repeat: no-repeat;
 	background-position: 90% 60%;
+	background-size: 1vw;
 	color: #fff;
 	display: inline-block;
 	width: 100%;
