@@ -1,0 +1,134 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Courier, monospace;
+	font-size: 25px;
+	font-size: 2.5vw;
+	background-color: #2D2D2D;
+	background-image: url(pics/wallpaper.jpg);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+.nonscroll{
+	height: 100%;
+	overflow-y: auto;
+}
+li{
+	font-family: Courier, monospace;
+	font-weight: normal;
+	font-size: 35px;
+	font-size: 3.5vw;
+	display: block;
+	padding: 5px;
+	padding: 0.5vw;
+	text-align: left;
+}
+.logocontainer{
+	width: 100%;
+	position: fixed;
+	top:0;
+}
+.logo{
+	width: 22%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.titlecontainer{
+	width: 80%;
+	display: inline-block;
+	padding-top: 13vh;
+	padding-bottom: 20vh;
+}
+
+
+.subtitle{
+	font-size: 35px;
+	font-size: 2.5vw;
+	padding: 5vw;
+	padding-bottom: 2vw;
+	font-weight: bold;
+	text-align: center;
+}
+.dropbtn{
+	font-family: Courier, monospace;
+	font-size: 35px;
+	font-size: 3.5vw;
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	border-bottom:0.2vw solid #fff;
+	outline: none;
+	background-color:rgba(0, 0, 0, 0.5);
+	background-image: url(pics/arrow.png);
+	background-repeat: no-repeat;
+	background-position: 90% 60%;
+	 background-size: 4vw 4vw;
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1vh;
+	padding: 3vw;
+	padding-top: 5.5vw;
+}
+.arrow{
+	float: right;
+}
+.dropitems{
+ 	display: none;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 3vw;
+	padding-right: 3vw;
+}
+.showit{
+	display: block;
+}
+.overflow{
+	height: 35vh;
+	overflow-y: auto;
+}
+.price{
+	float: right;
+	font-size: 3vw;
+}
+.rotatebtn{
+	background-image: url(pics/arrow180.png);
+	background-repeat: no-repeat;
+}
+/*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
+footer{
+	position: fixed;
+	bottom:0;
+	width: 100%;
+	background-color:rgba(0, 0, 0, 0.5);
+	background:inherit;
+ 	z-index: 1;
+	padding-top: 0.2vh;
+	padding-bottom: 1vh;
+}
+.footerlogo{
+	width: 20%;
+	padding-bottom: 1vh;
+
+}
+.ftext{
+	margin: 0.2vh !important;
+	font-size: 20px;
+	font-size: 2vw;
+	font-weight: lighter;
+}
+.ftitle{
+	font-size: 25px;
+	font-size: 2.5vw;
+	font-weight: bolder;
+}
+.fspace{
+	padding-bottom: 0.5vw;
+}
