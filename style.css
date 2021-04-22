@@ -11,7 +11,6 @@ body{
 	background-size: cover;
 	color: #fff;
 	text-align: center;
-	touch-action: none;
 }
 .logocontainer{
 	width: 100%;
