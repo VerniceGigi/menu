@@ -131,9 +131,4 @@ footer{
 .nonscroll{
 	height: 100%;
 	overflow-y: auto;
-  	-ms-overflow-style: none;  /* Hide scrollbar IE Edge*/
-  	scrollbar-width: none;  /* Hide scrollbar Firefox */
-}
-.nonscroll:-webkit-scrollbar {
-  display: none;	/* Hide scrollbar Chrome Safari Opera */
 }
