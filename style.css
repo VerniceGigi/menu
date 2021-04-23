@@ -11,7 +11,7 @@ body{
 	background-size: 120%;
 	color: #fff;
 	text-align: center;
-	height: 100vh;
+	height: 100%;
 	overflow: hidden;
 }
 li{
@@ -44,7 +44,7 @@ li{
 	padding-top: 13vh;
 	display: inline-block;
 	text-align: center;
-	height: 60vh;
+	height: 60%;
 	width: 80%;
 }
 .subtitle{
