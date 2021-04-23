@@ -39,11 +39,9 @@ li{
 }
 .titlecontainer{
 	overflow-y: auto;
-	position: relative;
-	top:13vh;
+	padding-top: 13vh;
 	display: inline-block;
 	text-align: center;
-	
 	height: 60vh;
 	width: 80%;
 }
