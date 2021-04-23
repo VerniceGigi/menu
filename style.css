@@ -39,7 +39,7 @@ li{
 }
 .nonscroll{
 	overflow-y: auto;
-	position: relative;
+	position: absolute;
 	top: 13vh;
 	height: 70vh;
 }
