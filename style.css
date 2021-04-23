@@ -37,18 +37,13 @@ li{
 	margin-right: auto;
 	margin-left: auto;
 }
-.nonscroll{
+.titlecontainer{
 	overflow-y: auto;
-	position: fixed;
+	position: absolute;
 	top: 13vh;
 	height: 60vh;
-}
-.titlecontainer{
 	width: 80%;
-	display: inline-block;
-/*	padding-top: 1vh;
-	padding-bottom: 2vh;
-	*/
+	display: block;
 }
 .subtitle{
 	font-size: 35px;
