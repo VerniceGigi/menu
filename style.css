@@ -100,6 +100,10 @@ li{
 	height: 35vh;
 	overflow-y: auto;
 }
+.centerlist{
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
 .price{
 	float: right;
 	font-size: 3vw;
