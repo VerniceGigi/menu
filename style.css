@@ -43,7 +43,9 @@ li{
 	top: 13vh;
 	height: 60vh;
 	width: 80%;
-	display: block;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
 }
 .subtitle{
 	font-size: 35px;
