@@ -30,6 +30,8 @@ li{
 	position: fixed;
 	top:0;
 	display: block;
+	background: inherit;
+	z-index: 1;
 }
 .logo{
 	width: 22%;
