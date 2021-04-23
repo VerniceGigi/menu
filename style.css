@@ -40,6 +40,8 @@ li{
 .titlecontainer{
 	overflow-y: auto;
 	position: fixed;
+	display: inline-block;
+	text-align: center;
 	top: 13vh;
 	height: 60vh;
 	width: 80%;
