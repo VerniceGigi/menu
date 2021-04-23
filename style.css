@@ -39,7 +39,7 @@ li{
 }
 .titlecontainer{
 	overflow-y: auto;
-	position: absolute;
+	position: fixed;
 	top: 13vh;
 	height: 60vh;
 	width: 80%;
