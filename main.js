@@ -28,15 +28,9 @@ function opacit(m) {
 	var j;
 	var k;
 	var button = document.getElementsByClassName("dropbtn");
-
-	if (m > button.length) {btnIndex = 1}
-
-	if (m < 1) {btnIndex = button.length}
-
 	for (j = 0; j < button.length; j++) {
 		button[j].classList.remove('showdropbtn');
 	}
-
 	button[btnIndex-1].classList.add("showdropbtn");
 }
 
