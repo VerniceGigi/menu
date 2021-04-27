@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>SL Cocktail Bar Menu</title>
+	
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	<meta name="theme-color" content="#131313">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#131313">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	
+	<div class="logocontainer">
+		<img class="logo" src="pics/logo.png">
+	</div>
+
+	<div class="container">
+		
+		<button onclick="dropit(this);opac(1);" id="btn1" class="dropbtn">COCKTAILS</button>
+		<ul id="droplist1" class="dropitems">
+			<div class="overflow centerlist">
+				<li>Gin Tonic<span class="price">€7</span></li>
+				<li>Gin Lemon<span class="price">€7</span></li>
+				<li>Vodka Tonic<span class="price">€7</span></li>
+				<li>Vodka Lemon<span class="price">€7</span></li>
+				<li>Vodka Redbull<span class="price">€7</span></li>
+				<li>Whiskey Sour<span class="price">€7</span></li>
+				<li>Aperol Spritz<span class="price">€7</span></li>
+				<li>Campari Spritz<span class="price">€7</span></li>
+				<li>Negroni<span class="price">€7</span></li>
+				<li>Negroni Sbagliato<span class="price">€7</span></li>
+				<li>Americano<span class="price">€7</span></li>
+				<li>Moskow Mule<span class="price">€7</span></li>
+				<li>London Mule<span class="price">€7</span></li>
+				<li>Long Island Iced Tea<span class="price">€7</span></li>
+				<li>Miami Iced Tea<span class="price">€7</span></li>
+				<li>Japan Iced Tea<span class="price">€7</span></li>
+				<li>Sex On The Beach<span class="price">€7</span></li>
+				<li>Moscow Mule<span class="price">€7</span></li>
+				<li>Caipiroska<span class="price">€7</span></li>
+				<li>Screw Driver<span class="price">€7</span></li>
+				<li>Bloody Mary<span class="price">€7</span></li>
+				<li>Kamikaze<span class="price">€7</span></li>
+				<li>Black Russian<span class="price">€7</span></li>
+				<li>Negroni<span class="price">€7</span></li>
+				<li>Negroni Sbagliato<span class="price">€7</span></li>
+				<li>Americano<span class="price">€7</span></li>
+				<li>Gin Fizz<span class="price">€7</span></li>
+				<li>White Lady<span class="price">€7</span></li>
+				<li>Palm Beach<span class="price">€7</span></li>
+				<li>Hugo Spritz<span class="price">€7</span></li>
+				<li>London Mule<span class="price">€7</span></li>
+				<li>Cuba Libre<span class="price">€7</span></li>
+				<li>Cuba Sbagliato<span class="price">€7</span></li>
+				<li>Caipirissima<span class="price">€7</span></li>
+				<li>Pina Colada<span class="price">€7</span></li>
+				<li>Daiquiri<span class="price">€7</span></li>
+				<li>Mojito<span class="price">€7</span></li>
+				<li>Rum Cooler<span class="price">€7</span></li>
+				<li>Mai Tai<span class="price">€7</span></li>
+				<li>Jamaican Juleps<span class="price">€7</span></li>
+				<li>Blue Hawaiian<span class="price">€7</span></li>
+				<li>Caipirina<span class="price">€7</span></li>
+				<li>Whiskey Redbull<span class="price">€7</span></li>
+				<li>Old Fashioned<span class="price">€7</span></li>
+				<li>Suffering Bastard<span class="price">€7</span></li>
+				<li>Disaronno Orange<span class="price">€7</span></li>
+				<li>Garibaldi<span class="price">€7</span></li>
+				<li>Tequila Sunrise<span class="price">€7</span></li>
+				<li>Margarita<span class="price">€7</span></li>
+				<li>Tommy's Margarita<span class="price">€7</span></li>
+				<li>Midori Sour<span class="price">€7</span></li>
+			</div>
+		</ul>
+
+		<button onclick="dropit(this);opac(2);" id="btn2" class="dropbtn">PREMIUM</button>
+		<ul id="droplist2" class="dropitems">
+			<div class="overflow centerlist">
+				<li class="subtitle">GIN<span class="drinkglass">DRINK/GLASS</span></li>
+				<li>Mare<span class="price">€12 / €6</span></li>
+				<li>Hendrick's<span class="price">€12 / €6</span></li>
+				<li>N°3<span class="price">€12 / €6</span></li>
+				<li>Roku<span class="price">€12 / €6</span></li>
+				<li class="subtitle">VODKA<span class="drinkglass">DRINK/GLASS</span></li>
+				<li>Grey Goose<span class="price">€12 / €6</span></li>
+				<li>Absolut<span class="price">€12 / €6</span></li>
+				<li>Belvedere<span class="price">€12 / €6</span></li>
+				<li class="subtitle">WHISKEY<span class="drinkglass">DRINK/GLASS</span></li>
+				<li>Bulleit<span class="price">€12 / €6</span></li>
+				<li>Wild Turkey<span class="price">€12 / €6</span></li>
+				<li>Maker's Mark<span class="price">€12 / €6</span></li>
+				<li class="subtitle">RUM<span class="drinkglass">DRINK/GLASS</span></li>
+				<li>Havana 7<span class="price">€12 / €6</span></li>
+				<li>The Kraken<span class="price">€12 / €6</span></li>
+				<li class="subtitle">OTHER<span class="drinkglass">DRINK/GLASS</span></li>
+				<li>Espolon Blanco<span class="price">€12 / €6</span></li>
+				<li>Espolon Reposado<span class="price">€12 / €6</span></li>
+				<li>Other<span class="price">€12 / €6</span></li>
+			</div>
+		</ul>
+
+		<button onclick="dropit(this);opac(3);" id="btn3" class="dropbtn">LIQUEURS</button>
+		<ul id="droplist3" class="dropitems">
+			<div class="centerlist">
+					<li>Jagermeister<span class="price">€4</span></li>
+					<li>Amaro Del Capo<span class="price">€4</span></li>
+					<li>Montenegro<span class="price">€4</span></li>
+					<li>Grappa Nonino<span class="price">€4</span></li>
+					<li>Hennessy Cognac<span class="price">€5</span></li>
+					<li>Martell Cognac<span class="price">€5</span></li>
+					<li>other<span class="price">€5</span></li>
+			</div>
+		</ul>
+
+		<button onclick="dropit(this);opac(4);" id="btn3" class="dropbtn">BEER</button>
+		<ul id="droplist4" class="dropitems">
+			<div class="centerlist">
+				<li class="subtitle subeer">DRAFTED 40cl</li>
+					<li>Nastro Azzurro Lager 5.1°<span class="price">€6</span></li>
+					<li>Baladin IPA 7.5°<span class="price">€6</span></li>
+				<li class="subtitle subeer">BOTTLED 33cl</li>
+					<li>Menebrea<span class="price">€6</span></li>
+					<li>Icnusa<span class="price">€6</span></li>
+					<li>Beck's<span class="price">€5</span></li>
+					<li>Corona<span class="price">€6</span></li>
+					<li>Tennent's<span class="price">€6</span></li>
+			</div>
+		</ul>
+
+		<button onclick="dropit(this);opac(5);" id="btn4" class="dropbtn">WINE</button>
+		<ul id="droplist5" class="dropitems">
+			<div class="centerlist">
+				<li class="subtitle">WINE<span class="drinkglass">GLASS/BOTTLE</span></li>
+					<li>La Sastrería Red<span class="price">€6 / €25</span></li>
+					<li>La Sastrería White<span class="price">€6 / €25</span></li>
+					<li>Vino Dell'Amico Rosè<span class="price">€7 / €30</span></li>
+				<li class="subtitle">SPARKLING WINE<span class="drinkglass">GLASS/BOTTLE</span></li>
+					<li>Proseccone<span class="price">€6 / €20</span></li>
+					<li>Prosecchino<span class="price">€6 / €25</span></li>
+			</div>
+		</ul>
+
+		<button onclick="dropit(this);opac(6);" id="btn5" class="dropbtn">SOFT DRINKS</button>
+		<ul id="droplist6" class="dropitems">
+			<div class="centerlist">
+					<li>Water<span class="price">€1</span></li>
+					<li>Cola<span class="price">€4</span></li>
+					<li>Fruit Juice<span class="price">€4</span></li>
+					<li>RedBull<span class="price">€4</span></li>
+					<li>Non-alcoholic Cocktail<span class="price">€6</span></li>
+			</div>
+		</ul>
+<!-- UNCOMMENT FOR APERITIEVES
+		<button onclick="dropit(this);opac(7);" id="btn6" class="dropbtn">APERITIF</button>
+		<ul id="droplist7" class="dropitems">
+			<div class="centerlist">
+				<li class="subtitle">COLD CUTS BOARD</li>
+					<li>Selection of Cold Cuts<span class="price">€12</span></li>
+					<li><img class="taglieri" src="pics/tagliere.jpg"></li>
+				<li class="subtitle">CHARCUTERIE BOARD</li>
+					<li>Selection of Cold Cuts and Cheeses<span class="price">€12</span></li>
+					<li><img class="taglieri" src="pics/tagliere.jpg"></li>
+			</div>
+		</ul>
+-->		
+	
+	</div>
+	<script src="main.js"></script>
+
+	<footer>
+		<img class="footerlogo" src="pics/footerlogo.png">
+		<div class="fcontainer">
+		<p class="ftext ftitle">SUPER LOVE Club</p>
+		<p class="ftext fspace">Corso di Porta Ticinese, 32, 20123 MILANO</p>
+		<p class="ftext ftitle">SL Cocktail Bar</p>
+		<p class="ftext">Via Corsico, 5, 20144 MILANO</p>
+		</div>
+	</footer>
+
+
+</body>
+</html>
