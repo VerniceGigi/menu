@@ -133,8 +133,8 @@ li{
 .container{		/*OVERALL SCROLL*//*DO NOT MOVE*//*VERY IMPORTANT*//*OVERALL SCROLL*/
 	margin-top: 240px;
 	margin-top: 12vh;
-	height: 65%;
-	height: 74vh; /*JUST IN CASE IT WAS 65 WORKING*/
+	height: 64%;
+	height: 64vh; /*JUST IN CASE IT WAS 64 WORKING*/
 	overflow-y: auto;
 	-ms-overflow-style: none;  /* IE EDGE */
   	scrollbar-width: none;  /* FIREFOX */
